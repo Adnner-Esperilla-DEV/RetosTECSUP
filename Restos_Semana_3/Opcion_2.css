@@ -1,0 +1,92 @@
+/* Declarar variables */
+:root{
+    --color1: #000000;
+    --color2: #FFFFFF;
+    --color3: #747474;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.boton{
+    background-color: var(--color3);
+    color: var(--color2);
+    width: 200px;
+    height: 30px;
+    
+}
+header{
+   
+    display: flex;
+    min-height: 250px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+ 
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.header_info {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+}
+.header_info i {
+
+    position: absolute;
+    margin: 10px;
+    top: 0;
+    left: 0;
+}
+.tittle {
+    margin-top: 100px;
+}
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.card{
+    margin-top: 10px;
+    width: 400px;
+    height: 410px;
+    background-color: var(--color2);
+    color: var(--color1);
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    border: 2px solid var(--color3);
+    box-shadow: 1px 1px 1px 1px var(--color3);
+    margin-left: 10px;
+      
+}
+@media only screen and (min-width:900px){
+
+
+    header{
+        min-height: 600px;
+    }
+    .card{
+        width: 500px;
+    }
+
+
+}
+@media only screen and (min-width:480px){
+
+
+    header{
+        min-height: 600px;
+    }
+    .card{
+        width: 300px;
+    }
+ 
+
+
+}

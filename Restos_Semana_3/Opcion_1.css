@@ -4,7 +4,10 @@
     --color2: #88BCD2;
     --color3: #252b42;
 }
-
+.boton{
+    background-color: var(--color3);
+    color: var(--color2);
+}
 .contenedor_principal {
     max-width: 400px;
     margin: auto;
