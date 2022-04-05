@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+section{
+    display: flex;
+    height: 30px;
+}
+header button{
+    color: white;
+    background-color: #36009D;
+    width: 25%;
+    border: none;
+}
+header .camera{
+    background-color: #26006E;
+}
+.titulo h2 {
+padding: 50px;
+min-height: 50px;
+font-size: 40px;
+font-weight: 100;
+}
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
